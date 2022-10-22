@@ -1,0 +1,183 @@
+
+body {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+	background-color: #f2f6ff;
+}
+.navbar{
+    Padding: 16px 78px;
+background-color: #fff;
+position: fixed;
+width: 100%;
+    
+}
+
+.logos{
+
+Width: 130px;
+font-size: 32px;
+color: #0084ff
+}
+ .logostories{
+ Margin: 0;
+font-weight:500;
+font:Raleway;
+font-style: Italic;
+ }
+
+ .menu_dropdown{
+ padding-top: 0px;
+ padding-left: 8px;
+ margin-left: 20px;
+ color:#000;
+
+ }
+
+ .menu_dropdown_icon{
+    padding-top: 0px;
+    padding-left: 8px;
+   
+    }
+
+ .logosection{
+    display: inline-grid !important;
+ }
+ .menu_dropdown{
+    display: inline-grid !important;
+ }
+
+
+.main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#categories{
+    margin-bottom: 20px;
+font-size: 16px;
+padding-top: 120px;
+    }
+
+    h1{
+        font-weight: 600;
+        Margin: 0px;}
+
+        .filter{
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 8px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        
+.filter_option {
+	display: inline-block;
+	padding: 6px 14px;
+	width: auto;
+	color: #0084ff;
+	border-radius: 15px;
+	border: 1px solid #0084ff;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.active {
+	color: #ffffff;
+	background-color: #0084ff;
+}
+.items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.card {
+	width: 30%;
+	border: 1px solid rgba(0,168,255,.3);
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.image_section {
+	height: 176px;
+	width: 100%;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.text_section {
+	padding: 10px 24px;
+}
+
+.title {
+	font-size: 18px;
+	text-align: left;
+	margin: 0px;
+	font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.author_container {
+	padding-top: 4px;
+}
+
+.author {
+	color: #0096ff;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 500px;
+}
+
+.date {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.text_message {
+    overflow: hidden;   
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.43;
+	color: rgba(0, 0, 0, 0.6);
+	margin: 4px 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:5;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #172146;
+    Padding : 40px 16%;
+
+}
+.footer-left{
+    float: left;
+    color: #fff;
+    font-size: medium;
+}
+.footer-right{
+    float: right;
+    color: #fff;
+    font-size: medium;
+
+}
